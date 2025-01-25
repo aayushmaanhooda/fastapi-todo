@@ -19,7 +19,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # Defining the database URL to connect to
 # 'sqlite://': Specifies the database type (SQLite in this case)
 # './todos.db': Relative path to the SQLite database file
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./todos.db'
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./todoapp.db'
 
 # Creating a database engine that manages the connection to the database
 # connect_args={'check_same_thread': False}: Specific to SQLite, allows multiple threads to access the database
